@@ -1,15 +1,22 @@
-let unit = 20
+let unit = []
 const meter = 0.3048
 const feet = 3.28084
 const gallon = 0.2641729
 const liters = 3.7854
 const kilo = 2.204623
 const pound = 0.4535924
-
+let convertBtn = document.getElementById("convert-btn")
 let unitEl = document.getElementById("unit-el")
-let lengthEl = document.getElementById("length-el")
+let lengthEl = document.getElementById("lenght-el")
 let volumeEl = document.getElementById("volume-el")
 let massEl = document.getElementById("mass-el")
+
+convertBtn.addEventListener("click", function(){
+    unit.push(unitEl.value) 
+    unitEl.value = '';   
+    console.log(unit)
+    toDOM()
+})
 
 function convert() {
      let feetToMeters = ""
@@ -28,12 +35,10 @@ function convert() {
 }
 
 let result = convert()
-console.log(result)
 
 function toDOM() {
     lengthEl.innerHTML = `<strong>${unit} meters</strong> = ${result[1].toFixed(3)} feet  |  <strong>${unit} feet</strong> = ${result[0].toFixed(3)} meters`
-    volumeEl.innerHTML = `<strong>${unit} liters</strong> = ${result[2].toFixed(3)} Gallons  |  <strong>${unit} Gallons</strong> = ${result[3].toFixed(3)} liters`
-    massEl.innerHTML = `<strong>${unit} Kilos</strong> = ${result[4].toFixed(3)} Pounds  |  <strong>${unit} Punds</strong> = ${result[5].toFixed(3)} Kilos`
+    volumeEl.innerHTML = `<strong>${unit} liters</strong> = ${result[2].toFixed(3)} gallons  |  <strong>${unit} gallons</strong> = ${result[3].toFixed(3)} liters`
+    massEl.innerHTML = `<strong>${unit} kilos</strong> = ${result[4].toFixed(3)} pounds  |  <strong>${unit} punds</strong> = ${result[5].toFixed(3)} kilos`  
 }
 
-toDOM()
