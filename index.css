@@ -113,3 +113,23 @@ header {
     color: #fff;
     background-color:rgb(61, 66, 204);
 }
+
+#reset-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    margin: -50px;   
+    color: #fff;
+    background-color:rgba(61, 66, 204, 0.644);
+    font-weight: 800;
+    padding: 10px 16px 10px 16px;   
+    border: 1px solid rgb(61, 66, 204);
+    border-radius: 3px;
+    letter-spacing: .1em;
+    font-size: .5em;
+}
+
+#reset-btn:hover {
+    color: #fff;
+    background-color:rgb(61, 66, 204);
+}
