@@ -23,8 +23,9 @@ convertBtn.addEventListener("click", function(){
             for (const result in units) {
                 conversions[result] = units[result] * number;
             }    
-         }
-        convert()        
+         }               
+        convert()    
+            
             function toDOM() {
             lengthEl.innerHTML = `<strong>${number} meters</strong> = ${conversions.feet.toFixed(3)} feet  |  <strong>${number} feet</strong> = ${conversions.meter.toFixed(3)} meters`
             volumeEl.innerHTML = `<strong>${number} liters</strong> = ${conversions.gallon.toFixed(3)} gallons  |  <strong>${number} gallons</strong> = ${conversions.liter.toFixed(3)} liters`
@@ -41,3 +42,4 @@ resetBtn.addEventListener("click", function(){
     massEl.innerHTML = `<strong>${number} kilos</strong> = ${zeros[4].toFixed(3)} pounds  |  <strong>${number} punds</strong> = ${zeros[5].toFixed(3)} kilos`    
        
 })
+
