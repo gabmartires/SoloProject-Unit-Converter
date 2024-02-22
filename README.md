@@ -13,7 +13,7 @@
 - [My Projects](#my-projects)
 
 ## Overview
-This is my second Solo Project from Scrimba! The task was to get familiar with the the "OnClick" button excecution method. The Unit converter is intented to convert any number into Length, Mass, and Volume from the Imperial to the Metric System. I'm sure my apprach wasn't the best but after a week I was able to make it work and improve on it.
+This is my second Solo Project from Scrimba! The task was to get familiar with the "OnClick" button execution method. The Unit converter is intended to convert any number into Length, Mass, and Volume from the Imperial to the Metric System. I'm sure my approach wasn't the best but after a week I was able to make it work and improve on it.
 
 ## About Scrimba
 
