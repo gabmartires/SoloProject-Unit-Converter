@@ -3,7 +3,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [About Scrimba](#About Scrimba)
+  - [About Scrimba](#about-scrimba)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My Process](#my-process)
@@ -13,7 +13,7 @@
 - [My Projects](#my-projects)
 
 ## Overview
-This is my second Solo Project from Scrimba! The task was to get familiar with the the "OnClick" button excecution method. The Unit converter is intented to convert any number into Lenght, Mass, and Volume from Imperial to the Metric system. I'm sure my apprach wasn't the best but after a week I was able to make it work and improve on it.
+This is my second Solo Project from Scrimba! The task was to get familiar with the the "OnClick" button excecution method. The Unit converter is intented to convert any number into Length, Mass, and Volume from the Imperial to the Metric System. I'm sure my apprach wasn't the best but after a week I was able to make it work and improve on it.
 
 ## About Scrimba
 
@@ -31,10 +31,10 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 
 #### Desktop
 
-![Unit Converter Desktop view](https://github.com/gabmartires/SoloProject-Password-Generator/blob/master/images/Solo-Project-JS-Password-Generator.png?raw=true)
+![Unit Converter Desktop view](https://raw.githubusercontent.com/gabmartires/SoloProject-Unit-Converter/master/images/Unit-Converter-Desktop-view.png)
 
 ### Mobile
-![Unit Converter Mobile view](https://github.com/gabmartires/SoloProject-Password-Generator/blob/master/images/Solo-Project-JS-Password-Generator-option.png?raw=true)
+![Unit Converter Mobile view](https://raw.githubusercontent.com/gabmartires/SoloProject-Unit-Converter/master/images/Unit-Converter-Mobile.png)
 
 
 ### Links
@@ -58,7 +58,7 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 
 ### My JS Jurney
 
-- I learn to keep the button "OnClick" actions in the JS side.
+- I learn to keep the button "OnClick" actions on the JS side.
 - I discovered that converting a string to a number data type can be difficult
 - I got familiar with the .value properties.
 - Replacing the lenghty list of variables and math operations with Loop is a great feeling. 
