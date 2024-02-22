@@ -29,7 +29,7 @@ convertBtn.addEventListener("click", function(){
             function toDOM() {
             lengthEl.innerHTML = `<strong>${number} meters</strong> = ${conversions.feet.toFixed(3)} feet  |  <strong>${number} feet</strong> = ${conversions.meter.toFixed(3)} meters`
             volumeEl.innerHTML = `<strong>${number} liters</strong> = ${conversions.gallon.toFixed(3)} gallons  |  <strong>${number} gallons</strong> = ${conversions.liter.toFixed(3)} liters`
-            massEl.innerHTML = `<strong>${number} kilos</strong> = ${conversions.pound.toFixed(3)} pounds  |  <strong>${number} punds</strong> = ${conversions.kilo.toFixed(3)} kilos`  
+            massEl.innerHTML = `<strong>${number} kilos</strong> = ${conversions.pound.toFixed(3)} pounds  |  <strong>${number} pounds</strong> = ${conversions.kilo.toFixed(3)} kilos`  
             }
         toDOM()
 })
@@ -39,7 +39,7 @@ resetBtn.addEventListener("click", function(){
     const zeros = new Array(6).fill(0);
     lengthEl.innerHTML = `<strong>${number} meters</strong> = ${zeros[1].toFixed(3)} feet  |  <strong>${number} feet</strong> = ${zeros[0].toFixed(3)} meters`
     volumeEl.innerHTML = `<strong>${number} liters</strong> = ${zeros[2].toFixed(3)} gallons  |  <strong>${number} gallons</strong> = ${zeros[3].toFixed(3)} liters`
-    massEl.innerHTML = `<strong>${number} kilos</strong> = ${zeros[4].toFixed(3)} pounds  |  <strong>${number} punds</strong> = ${zeros[5].toFixed(3)} kilos`    
+    massEl.innerHTML = `<strong>${number} kilos</strong> = ${zeros[4].toFixed(3)} pounds  |  <strong>${number} pounds</strong> = ${zeros[5].toFixed(3)} kilos`    
        
 })
 
