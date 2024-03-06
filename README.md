@@ -29,17 +29,17 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 
 ### Screenshots
 
-#### Desktop
+#### Desktop 📸
 
-![Unit Converter Desktop view](https://raw.githubusercontent.com/gabmartires/SoloProject-Unit-Converter/master/images/Unit-Converter-Desktop-view.png)
+![Unit Converter starting state](https://raw.githubusercontent.com/gabmartires/SoloProject-Unit-Converter/master/images/unit-converter-rest.png)
 
-### Mobile
-![Unit Converter Mobile view](https://raw.githubusercontent.com/gabmartires/SoloProject-Unit-Converter/master/images/Unit-Converter-Mobile.png)
+### Mobile 📸
+![Unit Converter Results](https://raw.githubusercontent.com/gabmartires/SoloProject-Unit-Converter/master/images/unit-converter-results.png)
 
 
 ### Links
 
-- 🔗 [Live](https://scrimba-gm-unitconverter.netlify.app/)
+- 🌍 [Live](https://scrimba-gm-unitconverter.netlify.app/)
 
 ## My process
 
@@ -65,4 +65,4 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - I realize that cleaner code is much better. 
 
 ### My Projects
-- GitHub [GabMartires](https://github.com/gabmartires)
+-👦🏽 GitHub [GabMartires](https://github.com/gabmartires)
