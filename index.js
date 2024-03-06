@@ -37,6 +37,7 @@ convertBtn.addEventListener("click", function(){
 resetBtn.addEventListener("click", function(){
     number = 0
     const zeros = new Array(6).fill(0);
+    console.log(zeros)
     lengthEl.innerHTML = `<strong>${number} meters</strong> = ${zeros[1].toFixed(3)} feet  |  <strong>${number} feet</strong> = ${zeros[0].toFixed(3)} meters`
     volumeEl.innerHTML = `<strong>${number} liters</strong> = ${zeros[2].toFixed(3)} gallons  |  <strong>${number} gallons</strong> = ${zeros[3].toFixed(3)} liters`
     massEl.innerHTML = `<strong>${number} kilos</strong> = ${zeros[4].toFixed(3)} pounds  |  <strong>${number} pounds</strong> = ${zeros[5].toFixed(3)} kilos`    
