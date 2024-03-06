@@ -22,8 +22,16 @@ html {text-size-adjust:100%;-webkit-text-size-adjust:100%;font-size:1.25em} /*--
 
 h1 {
     font-size: 1em;
-    color: #ffffff;
-    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 800;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    padding-top: 40px;
+
 }
 
 h2.subtitle {
@@ -71,12 +79,6 @@ body {
 
 .results{
     color: #4e4e4e;    
-}
-
-header {
-    padding-top: 50px;
-    color: #fff;
-    font-weight: 800;
 }
 
 #input-el {
