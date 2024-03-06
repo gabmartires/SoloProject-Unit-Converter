@@ -66,4 +66,3 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 
 ### My Projects
 - GitHub [GabMartires](https://github.com/gabmartires)
-
